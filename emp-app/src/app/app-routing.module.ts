@@ -15,7 +15,7 @@ const routes: Routes = [
  {path:'departments',component:DepartmentComponent},
  {path:'employees',component:EmployeeComponent},
  //{path:'login', component:LoginComponent},
- //{path:"**" ,component:LoginComponent}
+ {path:"**" ,component:LoginComponent}
   
   
   ];
