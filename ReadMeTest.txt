@@ -1,4 +1,4 @@
-This is Nineesh CV first file to adding Github!
-
-
-updating the this file.
+This is an application for Emplyoee Management system.
+Components Were used : 
+    -- Routing 
+    -- Services
