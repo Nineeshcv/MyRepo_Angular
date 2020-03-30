@@ -1,0 +1,10 @@
+<nav>
+    <a routerLink="/homePage" routerLinkActive="active">Home</a>
+</nav>
+<h2>Departments List</h2>
+<ul  class="items" >
+        <li *ngFor="let dep of departments">
+            <span class="badge">{{dep.id}}</span>{{dep.depName}}
+        </li>
+      
+</ul>

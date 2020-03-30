@@ -1,0 +1,21 @@
+
+<nav>
+    <a routerLink="/homePage" routerLinkActive="active">Home</a>
+    
+  </nav>
+  <h2>EmployeeList List</h2>
+<table style="width: 100%;">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+    </tr>
+    <tr  style="text-align: center" *ngFor="let emp of employees">
+        <td>{{emp.id}}</td>
+        <td>{{emp.empName}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.salary}}</td>
+
+    </tr>
+</table>

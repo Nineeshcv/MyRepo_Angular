@@ -1,0 +1,9 @@
+[
+    { "id" : 100, "depName": "Project"},
+    { "id" : 200, "depName": "IT"},
+    { "id" : 300, "depName": "Software"},
+    { "id" : 400, "depName": "It"},
+    { "id" : 500, "depName": "Admin"},
+    { "id" : 600, "depName": "HR"}
+
+]
